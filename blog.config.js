@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting
   profile: {
     name: 'hyuk_9_log',
-    image: ['/profile.png', '/profile-hover.png'],
+    image: ['/sit.png', '/solo.png'],
     discription: 'junior developer',
     linkedin: 'morethanmin',
     email: 'dlgur9612@gmail.com',
@@ -53,12 +53,12 @@ const CONFIG = {
       siteVerification: 'qvdR1gXMirk_DCUOKPgRnxu2x6fqSPrquYnEZZMjR9w'
     }
   },
-  utterances: {
-    enable: true,
-    config: {
-      repo: 'morethanmin/morethan-log'
-    }
-  },
+  // utterances: {
+  //   enable: true,
+  //   config: {
+  //     repo: 'morethanmin/morethan-log'
+  //   }
+  // },
 
   isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
 }
