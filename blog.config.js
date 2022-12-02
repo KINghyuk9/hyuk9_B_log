@@ -1,28 +1,28 @@
 const CONFIG = {
   // profile setting
   profile: {
-    name: 'morethanmin',
+    name: 'hyuk_9_log',
     image: ['/profile.png', '/profile-hover.png'],
-    discription: 'frontend developer',
+    discription: 'junior developer',
     linkedin: 'morethanmin',
-    email: 'morethanmin.dev@gmail.com',
-    github: 'morethanmin',
-    instagram: 'more_dev_min',
+    email: 'dlgur9612@gmail.com',
+    github: 'KINhyuk9',
+    instagram: 'hyuk9world',
   },
   projects: [
     {
-      name: 'Untilled',
-      href: 'https://untilled.web.app'
+      name: 'Study with me',
+      // href: 'https://untilled.web.app'
     }
   ],
   // blog setting
   blog: {
-    title: '🦁 멋쟁이 상민처럼', // blog 타이틀과 
-    description: '개발자로 일하면서 배운 내용들을 기록합니다.',
+    title: 'hyuk_9_log', // blog 타이틀과
+    description: '개발자로 성장하기',
   },
 
   // CONFIG configration
-  link: 'https://morethanmin.web.app',
+  link: 'https://hyukBlog.web.app',
   // link: 'https://morethan-log.vercel.app',
   since: 2022, // If leave this empty, current year will be used.
   lang: 'ko-KR', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
@@ -34,7 +34,7 @@ const CONFIG = {
 
   // notion configuration
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
+    pageId: '6101917972ce4602a1e764eaaec15e1f' ,
     // if you prefer not to make your database public, use this!!!
     accessToken: process.env.NOTION_ACCESS_TOKEN
   },
