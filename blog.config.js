@@ -4,7 +4,6 @@ const CONFIG = {
     name: 'hyuk_9_log',
     image: ['/sit.png', '/solo.png'],
     discription: 'junior developer',
-    linkedin: 'morethanmin',
     email: 'dlgur9612@gmail.com',
     github: 'KINhyuk9',
     instagram: 'hyuk9world',
@@ -12,7 +11,7 @@ const CONFIG = {
   projects: [
     {
       name: 'Study with me',
-      // href: 'https://untilled.web.app'
+      href: 'https://hyuk9_b_log.web.app'
     }
   ],
   // blog setting
@@ -56,7 +55,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: 'morethanmin/morethan-log'
+      repo: 'KINghyuk9/hyuk9_B_log'
     }
   },
 
