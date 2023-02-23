@@ -1,32 +1,31 @@
 const CONFIG = {
   // profile setting (required)
   profile: {
-    name: "morethanmin",
-    image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
-    role: "frontend developer",
-    bio: "I develop everything using node.",
-    email: "morethanmin.dev@gmail.com",
-    linkedin: "morethanmin",
-    github: "morethanmin",
-    instagram: "",
+    name: "hyuk_9_log",
+    image: ['/sit.png', '/solo.png'], // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    role: "junior developer",
+    bio: "공부하면 행복하다",
+    email: "dlgur9612@gmail.com",
+    github: "KINhyuk9",
+    instagram: "hyuk9world",
   },
   projects: [
     {
-      name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `Study with me`,
+      href: "https://hyuk9_b_log.web.app",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "morethan-log",
-    description: "welcome to morethan-log!",
+    title: "hyuk_9_log",
+    description: "Hello, I'm hyuk_9",
     theme: "light", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://hyukBlog.vercel.app",
   since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
     keywords: ["Blog", "Website", "Notion"],
@@ -34,7 +33,7 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: process.env.NOTION_PAGE_ID,
+    pageId: 'c289d549a5a1482da44a77a8ceb7c989',
   },
 
   // plugin configuration (optional)
@@ -53,9 +52,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "morethanmin/morethan-log",
-      "issue-term": "og:title",
-      label: "💬 Utterances",
+      repo: "KINghyuk9/hyuk9_B_log",
     },
   },
   cusdis: {
