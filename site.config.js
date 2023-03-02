@@ -7,8 +7,8 @@ const CONFIG = {
     bio: "공부하면 행복하다",
     email: "dlgur9612@gmail.com",
     linkedin: "",
-    github: "https://github.com/KINghyuk9",
-    instagram: "https://www.instagram.com/hyuk9world/",
+    github: "KINghyuk9",
+    instagram: "hyuk9world/",
   },
   projects: [
     {
