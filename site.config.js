@@ -54,6 +54,8 @@ const CONFIG = {
     enable: true,
     config: {
       repo: "KINghyuk9/hyuk9_B_log",
+      "issue-term": "og:title",
+      label: "💬 Utterances",
     },
   },
   cusdis: {
