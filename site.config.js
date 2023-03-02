@@ -7,8 +7,8 @@ const CONFIG = {
     bio: "공부하면 행복하다",
     email: "dlgur9612@gmail.com",
     linkedin: "",
-    github: "KINhyuk9",
-    instagram: "hyuk9world",
+    github: "https://github.com/KINghyuk9",
+    instagram: "https://www.instagram.com/hyuk9world/",
   },
   projects: [
     {
@@ -34,7 +34,7 @@ const CONFIG = {
 
   // notion configuration (required)
   notionConfig: {
-    pageId: 'c289d549a5a1482da44a77a8ceb7c989',
+    pageId: 'c771941ffb934af19e1412e07b1cd176',
   },
 
   // plugin configuration (optional)
