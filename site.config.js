@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `Study with me`,
-      href: "https://hyuk9_b_log.web.app",
+      href: "https://hyuk9-b-log.vercel.app/",
     },
   ],
   // blog setting (required)
